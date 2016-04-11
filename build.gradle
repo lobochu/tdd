@@ -30,4 +30,11 @@ dependencies {
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
     compile 'javax.servlet:servlet-api:2.5'
+    compile 'javax.serv.et:jstl:1.2'
+    compile 'org.springframework:spring-webmvc:4.1.5.RELEASE'
+}
+
+jettyRun{
+    contextPath = "ttd"
+    httpPort = 8080
 }
